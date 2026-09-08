@@ -1,9 +1,11 @@
 {
-  "actualizado": "2026-09-08T15:00:00+02:00",
+  "actualizado": "2026-09-08T17:57:14+02:00",
   "bitcoin": { "eur": 67696, "variacion_24h_pct": 0.28 },
   "noticias": [
     "La jueza señala a Marruecos por la entrada masiva a Ceuta",
     "La victoria de la extrema derecha abre una crisis en el Gobierno alemán"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 18 }
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 18 },
+  "vuelos": "NYC 369€ 2dic 8d y CMB 349€ 5dic 9d",
+  "vuelos_verificado": false
 }
