@@ -1,17 +1,9 @@
 {
-  "actualizado": "2026-09-08T12:00:00+02:00",
-  "tareas": [
-    {
-      "nombre": "La jueza señala a Marruecos por la entrada masiva a Ceuta",
-      "estado": "ok",
-      "resumen": "12 artículos nuevos",
-      "proxima": "2026-09-09T07:30:00+02:00"
-    },
-    {
-      "nombre": "Prueba automatizada Claude",
-      "estado": "ok",
-      "resumen": "Hoy en Pamplona: 15° / 29°",
-      "proxima": "2026-09-09T08:00:00+02:00"
-    }
-  ]
+  "actualizado": "2026-09-08T15:00:00+02:00",
+  "bitcoin": { "eur": 67696, "variacion_24h_pct": 0.28 },
+  "noticias": [
+    "La jueza señala a Marruecos por la entrada masiva a Ceuta",
+    "La victoria de la extrema derecha abre una crisis en el Gobierno alemán"
+  ],
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 18 }
 }
