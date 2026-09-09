@@ -46,8 +46,8 @@ async function buildWidget(data) {
   const w = new ListWidget();
   w.setPadding(0, 0, 0, 0);
 
-  const topZoneColor = Color.dynamic(new Color("#8193a9", 0.8), new Color("#656d78", 0.8));
-  const bottomZoneColor = Color.dynamic(new Color("#a7b3c3", 0.8), new Color("#9399a0", 0.8));
+  const topZoneColor = Color.dynamic(new Color("#c0c9d4", 0.8), new Color("#b2b6bc", 0.8));
+  const bottomZoneColor = Color.dynamic(new Color("#d3d9e1", 0.8), new Color("#c9ccd0", 0.8));
 
   w.backgroundColor = topZoneColor;
 
@@ -131,7 +131,7 @@ async function buildWidget(data) {
 
   bottomSection.addSpacer();
 
-  let footerStr = `Actualizado ${fmtHora(data.actualizado)}`;
+  let footerStr = fmtHora(data.actualizado);
   if (data.vuelos && family !== "small") {
     const marca = data.vuelos_verificado === false ? "*" : "";
     footerStr += ` · ${data.vuelos}${marca}`;
