@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-09T22:37:09+02:00",
-  "bitcoin": { "eur": 67227, "variacion_24h_pct": -0.36 },
+  "actualizado": "2026-09-09T22:56:54+02:00",
+  "bitcoin": { "eur": 67648, "variacion_24h_pct": 1.20 },
   "noticias": [
-    "Crisis migratoria en Ceuta: militares denuncian pasividad de Marruecos y nuevas agresiones",
+    "Cataluña suspende las clases en cinco comarcas por la alerta roja de lluvias torrenciales",
     "España registra sus peores resultados históricos en el informe PISA en lectura, matemáticas y ciencias"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "sun.max.fill", "max": 18, "min": 11 },
-  "vuelos": "Praia 225€ 4dic 8d y Dakar 250€ 5dic 9d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 19, "min": 14 },
+  "vuelos": "MAD-Zanzibar 269€ 6dic 8d y MAD-Colombo 319€ 8dic 8d",
   "vuelos_verificado": false
 }
