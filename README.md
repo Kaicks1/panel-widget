@@ -1,6 +1,15 @@
 # panel-widget
 Repositorio para Widget iOS
 
+## Estructura
+
+- **`tareas.json`** — datos (BTC, noticias, tiempo, vuelos). Se actualiza automáticamente.
+- **`format-widget`** — el widget de Scriptable completo (fetch de datos + diseño + presentación).
+- **`scriptable-loader.js`** — el único script que hay que pegar en la app Scriptable. En
+  cada refresco descarga `format-widget` desde este repo y lo ejecuta al vuelo, así que
+  un cambio de diseño en `format-widget` se aplica solo, sin volver a pegar nada en el
+  móvil. Si cambias el diseño, solo hay que actualizar `format-widget` aquí.
+
 ## Formato de `tareas.json`
 
 Actualizado por una tarea programada varias veces al día (horario objetivo:
