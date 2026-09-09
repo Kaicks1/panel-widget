@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-09T23:01:59+02:00",
+  "actualizado": "2026-09-09T23:07:22+02:00",
   "bitcoin": { "eur": 67648, "variacion_24h_pct": 1.20 },
   "noticias": [
     "Cataluña suspende las clases en cinco comarcas por la alerta roja de lluvias torrenciales",
     "España registra sus peores resultados históricos en el informe PISA en lectura, matemáticas y ciencias"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 19, "min": 14 },
-  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 20, "min": 13 },
+  "vuelos": "BCN-ElCairo 203€ 3dic 7d y MAD-Praia 225€ 5dic 8d",
   "vuelos_verificado": false
 }
