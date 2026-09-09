@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-08T18:05:26+02:00",
+  "actualizado": "2026-09-09T07:05:33+02:00",
   "bitcoin": { "eur": 67696, "variacion_24h_pct": 0.28 },
   "noticias": [
-    "España sufre una caída histórica en el informe PISA de la OCDE",
+    "El Gobierno desclasifica los informes del CNI sobre la crisis migratoria de Ceuta",
     "La victoria de la extrema derecha abre una crisis en el Gobierno alemán"
   ],
   "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 18 },
-  "vuelos": "MBA 295€ 6dic 8d y CMB 319€ 3dic 9d",
+  "vuelos": "SID 253€ 6dic 8d y ZNZ 269€ 6dic 9d",
   "vuelos_verificado": false
 }
