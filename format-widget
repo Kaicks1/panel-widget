@@ -1,0 +1,166 @@
+// Widget: Bitcoin + Noticias + Tiempo (panel-widget)
+const JSON_URL = "https://raw.githubusercontent.com/Kaicks1/panel-widget/main/tareas.json";
+const CACHE_FILE = "panel-widget-cache.json";
+
+async function getData() {
+  try {
+    const req = new Request(JSON_URL + "?t=" + Date.now()); // evita caché
+    req.timeoutInterval = 10;
+    const data = await req.loadJSON();
+    saveCache(data);
+    return data;
+  } catch (e) {
+    const cached = loadCache();
+    if (cached) return cached;
+    throw e;
+  }
+}
+
+function saveCache(data) {
+  const fm = FileManager.local();
+  const path = fm.joinPath(fm.documentsDirectory(), CACHE_FILE);
+  fm.writeString(path, JSON.stringify(data));
+}
+
+function loadCache() {
+  const fm = FileManager.local();
+  const path = fm.joinPath(fm.documentsDirectory(), CACHE_FILE);
+  if (!fm.fileExists(path)) return null;
+  try {
+    return JSON.parse(fm.readString(path));
+  } catch (e) {
+    return null;
+  }
+}
+
+function fmtHora(iso) {
+  try {
+    const d = new Date(iso);
+    return d.toLocaleTimeString("es-ES", { hour: "2-digit", minute: "2-digit" });
+  } catch (e) {
+    return "";
+  }
+}
+
+async function buildWidget(data) {
+  const w = new ListWidget();
+  w.setPadding(0, 0, 0, 0);
+
+  const topZoneColor = Color.dynamic(new Color("#8193a9", 0.8), new Color("#656d78", 0.8));
+  const bottomZoneColor = Color.dynamic(new Color("#a7b3c3", 0.8), new Color("#9399a0", 0.8));
+
+  w.backgroundColor = topZoneColor;
+
+  const textColor = new Color("#1c1c1e");
+  const secondaryColor = new Color("#48484a");
+
+  const family = config.widgetFamily || "medium";
+
+  const topSection = w.addStack();
+  topSection.backgroundColor = topZoneColor;
+  topSection.setPadding(12, 14, 10, 14);
+  topSection.layoutVertically();
+
+  const topRow = topSection.addStack();
+  topRow.layoutHorizontally();
+  topRow.centerAlignContent();
+
+  const btcStack = topRow.addStack();
+  btcStack.centerAlignContent();
+  const btcLabel = btcStack.addText(" BTC:");
+  btcLabel.font = Font.systemFont(13);
+  btcLabel.textColor = secondaryColor;
+  btcStack.addSpacer(3);
+  const btcTxt = btcStack.addText(
+    `${Math.round(data.bitcoin.eur).toLocaleString("es-ES")} €`
+  );
+  btcTxt.font = Font.semiboldSystemFont(15);
+  btcTxt.textColor = textColor;
+  if (typeof data.bitcoin.variacion_24h_pct === "number") {
+    btcStack.addSpacer(3);
+    const pct = data.bitcoin.variacion_24h_pct;
+    const pctTxt = btcStack.addText(`${pct >= 0 ? "+" : ""}${pct.toFixed(2)}%`);
+    pctTxt.font = Font.systemFont(15);
+    pctTxt.textColor = pct >= 0 ? new Color("#1e7e34") : new Color("#b3261e");
+  }
+
+  topRow.addSpacer();
+
+  const meteoStack = topRow.addStack();
+  meteoStack.centerAlignContent();
+  const meteoLabel = meteoStack.addText("Pamplona:");
+  meteoLabel.font = Font.systemFont(13);
+  meteoLabel.textColor = secondaryColor;
+  meteoStack.addSpacer(3);
+  const meteoTxt = meteoStack.addText(`${data.tiempo.max}° / ${data.tiempo.min}°`);
+  meteoTxt.font = Font.semiboldSystemFont(15);
+  meteoTxt.textColor = textColor;
+  meteoStack.addSpacer(3);
+  const meteoIcon = meteoStack.addImage(
+    SFSymbol.named(data.tiempo.icono || "cloud.sun.fill").image
+  );
+  meteoIcon.imageSize = new Size(18, 18);
+  meteoIcon.tintColor = new Color("#0a5ba8");
+
+  const divider = w.addStack();
+  divider.size = new Size(0, 1);
+  divider.backgroundColor = new Color("#f5f5f7", 0.9);
+
+  const bottomSection = w.addStack();
+  bottomSection.backgroundColor = bottomZoneColor;
+  bottomSection.setPadding(10, 14, 10, 14);
+  bottomSection.layoutVertically();
+
+  const noticias = data.noticias || [];
+  const maxNoticias = family === "small" ? 1 : 2;
+
+  for (let i = 0; i < Math.min(maxNoticias, noticias.length); i++) {
+    if (i > 0) bottomSection.addSpacer(8);
+    const row = bottomSection.addStack();
+    row.layoutHorizontally();
+    const bullet = row.addText("•");
+    bullet.font = Font.boldSystemFont(13);
+    bullet.textColor = new Color("#0a5ba8");
+    row.addSpacer(5);
+    const titular = row.addText(noticias[i].toUpperCase());
+    titular.font = Font.boldSystemFont(13);
+    titular.textColor = textColor;
+    titular.lineLimit = family === "large" ? 3 : 2;
+    titular.minimumScaleFactor = 0.85;
+  }
+
+  bottomSection.addSpacer();
+
+  let footerStr = `Actualizado ${fmtHora(data.actualizado)}`;
+  if (data.vuelos && family !== "small") {
+    const marca = data.vuelos_verificado === false ? "*" : "";
+    footerStr += ` · ${data.vuelos}${marca}`;
+  }
+  const footer = bottomSection.addText(footerStr);
+  footer.font = Font.systemFont(9);
+  footer.textColor = secondaryColor;
+  footer.lineLimit = 1;
+  footer.minimumScaleFactor = 0.7;
+
+  return w;
+}
+
+let widget;
+try {
+  const data = await getData();
+  widget = await buildWidget(data);
+} catch (e) {
+  widget = new ListWidget();
+  const errTxt = widget.addText("No se pudieron cargar los datos");
+  errTxt.font = Font.systemFont(12);
+  errTxt.textColor = Color.red();
+}
+
+widget.refreshAfterDate = new Date(Date.now() + 30 * 60 * 1000);
+
+if (config.runsInWidget) {
+  Script.setWidget(widget);
+} else {
+  await widget.presentMedium();
+}
+Script.complete();
