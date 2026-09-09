@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-09T22:21:54+02:00",
-  "bitcoin": { "eur": 67696, "variacion_24h_pct": 0.28 },
+  "actualizado": "2026-09-09T22:37:09+02:00",
+  "bitcoin": { "eur": 67227, "variacion_24h_pct": -0.36 },
   "noticias": [
-    "Temporal de lluvias torrenciales y avisos naranja en Cataluña, Baleares, Valencia y Murcia",
-    "La victoria de la extrema derecha abre una crisis en el Gobierno alemán"
+    "Crisis migratoria en Ceuta: militares denuncian pasividad de Marruecos y nuevas agresiones",
+    "España registra sus peores resultados históricos en el informe PISA en lectura, matemáticas y ciencias"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 18 },
+  "tiempo": { "ciudad": "Pamplona", "icono": "sun.max.fill", "max": 18, "min": 11 },
   "vuelos": "Praia 225€ 4dic 8d y Dakar 250€ 5dic 9d",
   "vuelos_verificado": false
 }
