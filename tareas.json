@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-09T21:52:21+02:00",
+  "actualizado": "2026-09-09T22:21:54+02:00",
   "bitcoin": { "eur": 67696, "variacion_24h_pct": 0.28 },
   "noticias": [
-    "El Gobierno desclasifica los informes del CNI sobre la crisis migratoria de Ceuta",
+    "Temporal de lluvias torrenciales y avisos naranja en Cataluña, Baleares, Valencia y Murcia",
     "La victoria de la extrema derecha abre una crisis en el Gobierno alemán"
   ],
   "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 18 },
-  "vuelos": "Sal 253€ 6dic 8d y Zanziba 269€ 6dic 9d",
+  "vuelos": "Praia 225€ 4dic 8d y Dakar 250€ 5dic 9d",
   "vuelos_verificado": false
 }
