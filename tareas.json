@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-10T15:52:06+02:00",
+  "actualizado": "2026-09-10T19:54:31+02:00",
   "bitcoin": { "eur": 67648, "variacion_24h_pct": 1.20 },
   "noticias": [
-    "El CNI alertó de la convocatoria de asalto a Ceuta un día antes de la llegada masiva de migrantes",
-    "Felipe VI preside la apertura del año judicial entre polémicas"
+    "El CNI alertó de un asalto masivo a Ceuta un día antes de que se produjera",
+    "El Congreso aprueba la nacionalidad española para los saharauis nacidos antes de 1977"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 12 },
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 19, "min": 14 },
   "vuelos": "MAD-Praia 225€ 6dic 8d y MAD-Dakar 354€ 10dic 8d",
   "vuelos_verificado": false
 }
