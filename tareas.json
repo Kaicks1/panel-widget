@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-10T08:53:05+02:00",
-  "bitcoin": { "eur": 67648, "variacion_24h_pct": 0.85 },
+  "actualizado": "2026-09-10T11:52:29+02:00",
+  "bitcoin": { "eur": 67648, "variacion_24h_pct": 1.20 },
   "noticias": [
-    "El CNI avisó del asalto masivo a la valla de Ceuta antes de que se produjera",
-    "El Rey Felipe VI preside la apertura del año judicial"
+    "El CNI alertó de un asalto a Ceuta antes de la llegada masiva de migrantes",
+    "Felipe VI preside la apertura del año judicial marcada por la polémica de la ley de nietos"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 12 },
-  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Zanzibar 869€ 10dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 19 },
+  "vuelos": "MAD-Dakar 354€ 10dic 8d y MAD-Sal 406€ 5dic 8d",
   "vuelos_verificado": false
 }
