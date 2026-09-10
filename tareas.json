@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-10T11:52:29+02:00",
+  "actualizado": "2026-09-10T13:52:41+02:00",
   "bitcoin": { "eur": 67648, "variacion_24h_pct": 1.20 },
   "noticias": [
-    "El CNI alertó de un asalto a Ceuta antes de la llegada masiva de migrantes",
-    "Felipe VI preside la apertura del año judicial marcada por la polémica de la ley de nietos"
+    "El CNI advirtió de convocatorias para un asalto por valla y mar a Ceuta",
+    "Felipe VI preside la apertura del año judicial 2026-2027"
   ],
   "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 19 },
-  "vuelos": "MAD-Dakar 354€ 10dic 8d y MAD-Sal 406€ 5dic 8d",
+  "vuelos": "MAD-Dakar 354€ 10dic 8d y BCN-Sal 452€ 3dic 6d",
   "vuelos_verificado": false
 }
