@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-10T08:13:22+02:00",
-  "bitcoin": { "eur": 67648, "variacion_24h_pct": 0.80 },
+  "actualizado": "2026-09-10T08:53:05+02:00",
+  "bitcoin": { "eur": 67648, "variacion_24h_pct": 0.85 },
   "noticias": [
-    "El CNI alertó al Gobierno y a Marruecos de la convocatoria para un asalto masivo a la valla de Ceuta antes de que se produjera",
-    "Salvador Illa alerta del avance del autoritarismo en su discurso institucional por el 50º aniversario de la Diada de 1976"
+    "El CNI avisó del asalto masivo a la valla de Ceuta antes de que se produjera",
+    "El Rey Felipe VI preside la apertura del año judicial"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 19, "min": 14 },
-  "vuelos": "BCN-ElCairo 203€ 3dic 7d y MAD-Praia 225€ 5dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 12 },
+  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Zanzibar 869€ 10dic 8d",
   "vuelos_verificado": false
 }
