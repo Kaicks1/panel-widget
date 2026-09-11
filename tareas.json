@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-11T15:53:49+02:00",
+  "actualizado": "2026-09-11T19:53:29+02:00",
   "bitcoin": { "eur": 66150, "variacion_24h_pct": -1.70 },
   "noticias": [
-    "Cataluña celebra la Diada Nacional con la ofrenda floral de Illa a Rafael Casanova y manifestación independentista en Barcelona",
-    "El Tribunal Supremo suspende cautelarmente el censo electoral de la ley de nietos antes de las elecciones"
+    "La manifestación independentista de la Diada reúne a 45.000 personas en Barcelona",
+    "El Tribunal Supremo confirma la suspensión del censo electoral CERA por la ley de nietos"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 10 },
-  "vuelos": "MAD-Marrake 69€ 6dic 7d y MAD-Zanzibar 760€ 10dic 10d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 11 },
+  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
   "vuelos_verificado": false
 }
