@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-11T19:53:29+02:00",
+  "actualizado": "2026-09-11T21:52:24+02:00",
   "bitcoin": { "eur": 66150, "variacion_24h_pct": -1.70 },
   "noticias": [
     "La manifestación independentista de la Diada reúne a 45.000 personas en Barcelona",
-    "El Tribunal Supremo confirma la suspensión del censo electoral CERA por la ley de nietos"
+    "El Tribunal Supremo paraliza cautelarmente los efectos electorales de la ley de nietos por falta de garantías en el censo CERA"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 11 },
-  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 12 },
+  "vuelos": "MAD-Dakar 354€ 10dic 8d y MAD-Cancun 494€ 5dic 8d",
   "vuelos_verificado": false
 }
