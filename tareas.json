@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-10T21:53:09+02:00",
-  "bitcoin": { "eur": 67648, "variacion_24h_pct": 1.20 },
+  "actualizado": "2026-09-11T08:55:13+02:00",
+  "bitcoin": { "eur": 66150, "variacion_24h_pct": -1.70 },
   "noticias": [
-    "El CNI alertó de un asalto masivo a Ceuta un día antes de que se produjera",
-    "Felipe VI preside la apertura del año judicial marcada por el choque entre Gobierno y jueces"
+    "España condena los ataques de Irán contra Jordania y advierte del riesgo de escalada en la región",
+    "Felipe VI preside en la Base de Rota el homenaje a las víctimas del 11-S en su 25 aniversario"
   ],
   "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 19 },
-  "vuelos": "MAD-Praia 225€ 6dic 8d y MAD-Dakar 354€ 10dic 8d",
+  "vuelos": "MAD-Praia 225€ 3dic 8d y BCN-Saigon 409€ 22dic 9d",
   "vuelos_verificado": false
 }
