@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-12T08:53:09+02:00",
-  "bitcoin": { "eur": 66150, "variacion_24h_pct": -1.70 },
+  "actualizado": "2026-09-12T11:53:22+02:00",
+  "bitcoin": { "eur": 66605, "variacion_24h_pct": -0.78 },
   "noticias": [
-    "El jefe de Gabinete de la Delegación del Gobierno en Ceuta dimite tras la polémica por los avisos del CNI",
-    "El Ejército del Aire despliega cazas F-18 y Eurofighter en el Golfo de Cádiz para el ejercicio Atlante 26"
+    "El jefe de gabinete de la Delegación del Gobierno en Ceuta dimite tras la polémica por los avisos del CNI",
+    "Los creadores de la inteligencia artificial empiezan a temer un poder fuera de control"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 21, "min": 15 },
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 26, "min": 15 },
   "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
   "vuelos_verificado": false
 }
