@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-11T21:52:24+02:00",
+  "actualizado": "2026-09-12T08:53:09+02:00",
   "bitcoin": { "eur": 66150, "variacion_24h_pct": -1.70 },
   "noticias": [
-    "La manifestación independentista de la Diada reúne a 45.000 personas en Barcelona",
-    "El Tribunal Supremo paraliza cautelarmente los efectos electorales de la ley de nietos por falta de garantías en el censo CERA"
+    "El jefe de Gabinete de la Delegación del Gobierno en Ceuta dimite tras la polémica por los avisos del CNI",
+    "El Ejército del Aire despliega cazas F-18 y Eurofighter en el Golfo de Cádiz para el ejercicio Atlante 26"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 12 },
-  "vuelos": "MAD-Dakar 354€ 10dic 8d y MAD-Cancun 494€ 5dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 21, "min": 15 },
+  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
   "vuelos_verificado": false
 }
