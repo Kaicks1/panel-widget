@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-12T11:53:22+02:00",
-  "bitcoin": { "eur": 66605, "variacion_24h_pct": -0.78 },
+  "actualizado": "2026-09-12T13:51:52+02:00",
+  "bitcoin": { "eur": 66150, "variacion_24h_pct": -1.70 },
   "noticias": [
-    "El jefe de gabinete de la Delegación del Gobierno en Ceuta dimite tras la polémica por los avisos del CNI",
-    "Los creadores de la inteligencia artificial empiezan a temer un poder fuera de control"
+    "Choque frontal en la Delegación del Gobierno en Ceuta por el aviso del CNI",
+    "Los creadores de la IA empiezan a temer un poder fuera de control"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 26, "min": 15 },
-  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 19 },
+  "vuelos": "MAD-BoaVista 224€ 28dic 8d y MAD-Dakar 250€ 6dic 8d",
   "vuelos_verificado": false
 }
