@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-12T19:52:37+02:00",
+  "actualizado": "2026-09-12T21:52:47+02:00",
   "bitcoin": { "eur": 66150, "variacion_24h_pct": -1.70 },
   "noticias": [
     "Crisis en la Delegación del Gobierno en Ceuta por un aviso del CNI y dimisión del jefe de gabinete",
-    "El Ejército del Aire despliega cazas en el Estrecho por las maniobras Atlante 26"
+    "18 detenidos por disturbios durante la Diada de Cataluña en Barcelona"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 19 },
-  "vuelos": "MAD-Dakar 250€ 5dic 6d y MAD-Praia 463€ 12dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 12 },
+  "vuelos": "MAD-Dakar 354€ 6dic 8d y MAD-Zanzibar 670€ 7dic 10d",
   "vuelos_verificado": false
 }
