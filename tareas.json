@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-12T21:52:47+02:00",
-  "bitcoin": { "eur": 66150, "variacion_24h_pct": -1.70 },
+  "actualizado": "2026-09-13T08:51:25+02:00",
+  "bitcoin": { "eur": 66571, "variacion_24h_pct": 0.00 },
   "noticias": [
-    "Crisis en la Delegación del Gobierno en Ceuta por un aviso del CNI y dimisión del jefe de gabinete",
-    "18 detenidos por disturbios durante la Diada de Cataluña en Barcelona"
+    "Patxi López admite que Ceuta sigue lejos de la normalidad tras la crisis migratoria y la polémica del CNI",
+    "Lando Norris logra la pole en el estreno del circuito Madring antes del Gran Premio de España de F1"
   ],
   "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 12 },
-  "vuelos": "MAD-Dakar 354€ 6dic 8d y MAD-Zanzibar 670€ 7dic 10d",
+  "vuelos": "MAD-Praia 225€ 4dic 8d y MAD-Dakar 354€ 10dic 8d",
   "vuelos_verificado": false
 }
