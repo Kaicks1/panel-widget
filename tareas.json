@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-13T08:51:25+02:00",
-  "bitcoin": { "eur": 66571, "variacion_24h_pct": 0.00 },
+  "actualizado": "2026-09-13T11:53:10+02:00",
+  "bitcoin": { "eur": 66571, "variacion_24h_pct": -0.78 },
   "noticias": [
-    "Patxi López admite que Ceuta sigue lejos de la normalidad tras la crisis migratoria y la polémica del CNI",
+    "Ceuta sigue lejos de la normalidad tras la crisis migratoria con Marruecos y la polémica del CNI",
     "Lando Norris logra la pole en el estreno del circuito Madring antes del Gran Premio de España de F1"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 23, "min": 12 },
-  "vuelos": "MAD-Praia 225€ 4dic 8d y MAD-Dakar 354€ 10dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "sun.max.fill", "max": 30, "min": 12 },
+  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
   "vuelos_verificado": false
 }
