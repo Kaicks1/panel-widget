@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-13T19:52:02+02:00",
-  "bitcoin": { "eur": 66571, "variacion_24h_pct": -0.34 },
+  "actualizado": "2026-09-13T21:53:12+02:00",
+  "bitcoin": { "eur": 66571, "variacion_24h_pct": -0.52 },
   "noticias": [
     "Tensión al límite en Ceuta por los incendios y la crisis migratoria con Marruecos",
-    "El Rey preside el Gran Premio de España de F1 en el nuevo circuito Madring"
+    "Lando Norris logra la pole en el estreno del Gran Premio de España de F1 en Madring"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 19 },
-  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Bangkok 616€ 10dic 10d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 19 },
+  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Joburg 463€ 6dic 8d",
   "vuelos_verificado": false
 }
