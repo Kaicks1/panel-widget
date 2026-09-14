@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-14T08:53:12+02:00",
-  "bitcoin": { "eur": 67186, "variacion_24h_pct": 0.50 },
+  "actualizado": "2026-09-14T13:52:40+02:00",
+  "bitcoin": { "eur": 67186, "variacion_24h_pct": 1.02 },
   "noticias": [
-    "Sánchez presenta la ampliación del Plan Veo con 100 euros de ayuda para gafas y lentillas de menores de 16 años",
-    "Investigan como feminicidio el asesinato de una estudiante española de 21 años en un intercambio universitario en México"
+    "Garamendi da por roto el diálogo social con el Gobierno por el registro de lobbies",
+    "Santos Cerdán reconoce ante el juez dos reuniones con Leire Díez"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 25, "min": 19 },
-  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 281€ 6dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 17 },
+  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 280€ 6dic 8d",
   "vuelos_verificado": false
 }
