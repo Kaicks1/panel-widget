@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-14T19:52:34+02:00",
+  "actualizado": "2026-09-14T21:53:36+02:00",
   "bitcoin": { "eur": 67186, "variacion_24h_pct": 0.50 },
   "noticias": [
-    "Garamendi rompe el diálogo de la CEOE con el Gobierno por el registro de lobbies",
-    "Díaz acusa al líder del PP de ser el pirómano del odio en plena tensión por la frontera"
+    "Traslado de cientos de migrantes a un nuevo campamento en Ceuta reaviva la crisis migratoria",
+    "La subida de la inflación y los precios de la energía amenaza con frenar la economía española este otoño"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 17 },
-  "vuelos": "MAD-BoaVista 224€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "sun.max.fill", "max": 32, "min": 18 },
+  "vuelos": "MAD-BoaVista 224€ 5dic 8d y MAD-Dakar 295€ 10dic 8d",
   "vuelos_verificado": false
 }
