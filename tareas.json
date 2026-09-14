@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-14T13:52:40+02:00",
-  "bitcoin": { "eur": 67186, "variacion_24h_pct": 1.02 },
+  "actualizado": "2026-09-14T19:52:34+02:00",
+  "bitcoin": { "eur": 67186, "variacion_24h_pct": 0.50 },
   "noticias": [
-    "Garamendi da por roto el diálogo social con el Gobierno por el registro de lobbies",
-    "Santos Cerdán reconoce ante el juez dos reuniones con Leire Díez"
+    "Garamendi rompe el diálogo de la CEOE con el Gobierno por el registro de lobbies",
+    "Díaz acusa al líder del PP de ser el pirómano del odio en plena tensión por la frontera"
   ],
   "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 28, "min": 17 },
-  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 280€ 6dic 8d",
+  "vuelos": "MAD-BoaVista 224€ 5dic 8d y MAD-Dakar 354€ 10dic 8d",
   "vuelos_verificado": false
 }
