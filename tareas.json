@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-15T15:52:26+02:00",
-  "bitcoin": { "eur": 67186, "variacion_24h_pct": 0.50 },
+  "actualizado": "2026-09-15T19:53:34+02:00",
+  "bitcoin": { "eur": 65822, "variacion_24h_pct": -2.90 },
   "noticias": [
-    "Estados Unidos y China libran su pulso por el dominio de la inteligencia artificial mientras las tecnológicas agitan los mercados",
-    "El IPC de agosto dispara la inflación en España hasta el 4,3%"
+    "Escalada de tensión entre el Gobierno y el Poder Judicial por las críticas a la independencia de los jueces",
+    "Asesinada en México una estudiante española de 21 años que hacía un intercambio universitario"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 32, "min": 18 },
-  "vuelos": "MAD-Praia 225€ 5dic 8d y MAD-Dakar 354€ 12dic 7d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 26, "min": 18 },
+  "vuelos": "MAD-Dakar 354€ 6dic 8d y MAD-Zanzibar 869€ 10dic 9d",
   "vuelos_verificado": false
 }
