@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-15T11:52:34+02:00",
+  "actualizado": "2026-09-15T13:53:08+02:00",
   "bitcoin": { "eur": 67186, "variacion_24h_pct": 0.50 },
   "noticias": [
-    "Estados Unidos y China libran su primer gran pulso por el dominio de la inteligencia artificial",
+    "Estados Unidos y China libran su pulso por el dominio de la inteligencia artificial mientras las tecnológicas agitan los mercados",
     "Feijóo plantea retirar la nacionalidad a quienes cometan delitos graves"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 32, "min": 18 },
-  "vuelos": "MAD-BoaVista 224€ 6dic 8d y MAD-Dakar 354€ 10dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "cloud.sun.fill", "max": 30, "min": 17 },
+  "vuelos": "MAD-Praia 225€ 4dic 8d y MAD-Dakar 354€ 10dic 8d",
   "vuelos_verificado": false
 }
