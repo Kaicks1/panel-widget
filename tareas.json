@@ -1,11 +1,11 @@
 {
-  "actualizado": "2026-09-14T21:53:36+02:00",
+  "actualizado": "2026-09-15T08:52:59+02:00",
   "bitcoin": { "eur": 67186, "variacion_24h_pct": 0.50 },
   "noticias": [
-    "Traslado de cientos de migrantes a un nuevo campamento en Ceuta reaviva la crisis migratoria",
-    "La subida de la inflación y los precios de la energía amenaza con frenar la economía española este otoño"
+    "Estados Unidos y China libran su primer gran pulso por el dominio de la inteligencia artificial",
+    "Asesinada en México una estudiante española"
   ],
-  "tiempo": { "ciudad": "Pamplona", "icono": "sun.max.fill", "max": 32, "min": 18 },
-  "vuelos": "MAD-BoaVista 224€ 5dic 8d y MAD-Dakar 295€ 10dic 8d",
+  "tiempo": { "ciudad": "Pamplona", "icono": "sun.max.fill", "max": 30, "min": 20 },
+  "vuelos": "MAD-Dakar 270€ 3dic 8d y MAD-Zanzibar 670€ 5dic 10d",
   "vuelos_verificado": false
 }
